@@ -1,0 +1,404 @@
+﻿
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>ผลของศูนย์เฝ้าระวังยาระดับตำบล | งานวิจัย สิรีธร เดชศิลาจารึกูณ</title>
+  <meta name="description" content="งานวิจัยผลของศูนย์เฝ้าระวังและแจ้งเตือนยาระดับตำบลในการเฝ้าระวังยาอันตรายในร้านชำ ตำบลยางพลวง จ.ศรีสะเกษ โดย สิรีธร เดชศิลาจารึกูณ"/>
+  <meta name="keywords" content="ศูนย์เฝ้าระวังยา,ยาอันตราย,ร้านชำ,G-RDU,G-SHP,ศรีสะเกษ"/>
+  <meta name="author" content="สิรีธร เดชศิลาจารึกูณ"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700;800&family=Sarabun:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <style>
+    :root{--p:#1a6fa8;--pd:#0e4d78;--pl:#3b9fd4;--a:#00c9a7;--g:#f5c842;--bg:#050e1a;--card:rgba(255,255,255,.04);--cardh:rgba(255,255,255,.08);--tl:#e8f4fd;--tm:#94b4cc;--td:#5a7d96;--br:rgba(59,159,212,.25);--glow:0 0 40px rgba(0,201,167,.15);--rl:1.25rem;--rm:.75rem;--fh:'Prompt',sans-serif;--fb:'Sarabun',sans-serif;--tr:.3s cubic-bezier(.4,0,.2,1)}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:var(--fb);background:var(--bg);color:var(--tl);line-height:1.7;overflow-x:hidden}
+    h1,h2,h3,h4{font-family:var(--fh);line-height:1.3}
+    img{max-width:100%;display:block}
+    a{text-decoration:none;color:inherit}
+    .c{max-width:1180px;margin:0 auto;padding:0 1.5rem}
+    .sec{padding:5rem 0}
+    .lbl{display:inline-flex;align-items:center;gap:.5rem;font-family:var(--fh);font-size:.78rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--a);background:rgba(0,201,167,.1);border:1px solid rgba(0,201,167,.3);padding:.35rem 1rem;border-radius:50px;margin-bottom:1rem}
+    .ttl{font-size:clamp(1.8rem,4vw,2.8rem);font-weight:700;margin-bottom:1rem;background:linear-gradient(135deg,#fff 30%,var(--pl));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+    .sub{color:var(--tm);font-size:1.05rem;max-width:640px}
+    .div{width:60px;height:4px;background:linear-gradient(90deg,var(--a),var(--pl));border-radius:2px;margin:1rem 0 2rem}
+    .bdg{display:inline-block;padding:.25rem .75rem;background:rgba(0,201,167,.15);color:var(--a);border:1px solid rgba(0,201,167,.4);border-radius:50px;font-size:.82rem;font-weight:500}
+    .mesh{position:fixed;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(ellipse 80% 50% at 20% 20%,rgba(26,111,168,.12) 0%,transparent 60%),radial-gradient(ellipse 60% 40% at 80% 80%,rgba(0,201,167,.08) 0%,transparent 60%),var(--bg)}
+    .nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:1rem 0;transition:var(--tr)}
+    .nav.on{background:rgba(5,14,26,.92);backdrop-filter:blur(20px);border-bottom:1px solid var(--br);padding:.75rem 0}
+    .ni{display:flex;align-items:center;justify-content:space-between}
+    .nl{display:flex;align-items:center;gap:.75rem}
+    .nli{width:38px;height:38px;background:linear-gradient(135deg,var(--p),var(--a));border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.1rem;font-weight:800;color:#fff;font-family:var(--fh)}
+    .nlt{font-family:var(--fh);font-size:.88rem;font-weight:600;color:var(--tl);line-height:1.2}
+    .nls{font-size:.72rem;color:var(--tm)}
+    .links{display:flex;align-items:center;gap:2rem}
+    .links a{font-size:.9rem;font-weight:500;color:var(--tm);transition:color var(--tr);position:relative}
+    .links a::after{content:'';position:absolute;bottom:-4px;left:0;right:0;height:2px;background:var(--a);transform:scaleX(0);transition:transform var(--tr);border-radius:1px}
+    .links a:hover{color:#fff}
+    .links a:hover::after{transform:scaleX(1)}
+    .cta{font-family:var(--fh);font-size:.85rem;font-weight:600;padding:.55rem 1.25rem;border-radius:50px;background:linear-gradient(135deg,var(--p),var(--a));color:#fff!important;box-shadow:0 4px 20px rgba(0,201,167,.3)}
+    .cta::after{display:none!important}
+    .tog{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:.5rem}
+    .tog span{display:block;width:22px;height:2px;background:var(--tl);border-radius:1px;transition:var(--tr)}
+    #hero{min-height:100vh;display:flex;align-items:center;padding:7rem 0 5rem;position:relative;overflow:hidden}
+    .hg{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center}
+    .he{display:flex;align-items:center;gap:.75rem;margin-bottom:1.5rem}
+    .hed{width:8px;height:8px;border-radius:50%;background:var(--a);animation:pd 2s infinite}
+    @keyframes pd{0%,100%{box-shadow:0 0 0 0 rgba(0,201,167,.6)}50%{box-shadow:0 0 0 8px rgba(0,201,167,0)}}
+    .het{font-size:.82rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--a)}
+    .ht{font-size:clamp(2rem,4.5vw,3.4rem);font-weight:800;line-height:1.2;margin-bottom:1.5rem}
+    .ht .hi{background:linear-gradient(135deg,var(--a),var(--pl));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+    .hd{color:var(--tm);font-size:1.05rem;margin-bottom:2rem;max-width:520px}
+    .htg{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:2.5rem}
+    .ha{display:flex;gap:1rem;flex-wrap:wrap}
+    .bp{display:inline-flex;align-items:center;gap:.5rem;font-family:var(--fh);font-size:.95rem;font-weight:600;padding:.85rem 2rem;border-radius:50px;background:linear-gradient(135deg,var(--p),var(--a));color:#fff;box-shadow:0 8px 30px rgba(0,201,167,.35);transition:transform var(--tr),box-shadow var(--tr);border:none;cursor:pointer}
+    .bp:hover{transform:translateY(-3px);box-shadow:0 14px 40px rgba(0,201,167,.45)}
+    .bo{display:inline-flex;align-items:center;gap:.5rem;font-family:var(--fh);font-size:.95rem;font-weight:500;padding:.85rem 2rem;border-radius:50px;background:transparent;color:var(--tl);border:1px solid var(--br);transition:var(--tr);cursor:pointer}
+    .bo:hover{background:var(--cardh);border-color:var(--pl)}
+    .hv{position:relative}
+    .hic{background:var(--card);backdrop-filter:blur(20px);border:1px solid var(--br);border-radius:var(--rl);overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.5),var(--glow);animation:fl 6s ease-in-out infinite}
+    @keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+    .hit{padding:1rem 1.25rem .5rem;display:flex;align-items:center;gap:.5rem}
+    .dot{width:10px;height:10px;border-radius:50%}
+    .hii{padding:.5rem 1rem 1rem}
+    .hii img{border-radius:var(--rm);width:100%}
+    .hic2{font-size:.78rem;color:var(--tm);text-align:center;padding:.5rem 0}
+    .chips{position:absolute;bottom:-1.5rem;left:-1.5rem;display:flex;flex-direction:column;gap:.6rem}
+    .chip{background:rgba(5,14,26,.85);backdrop-filter:blur(16px);border:1px solid var(--br);border-radius:12px;padding:.6rem 1rem;display:flex;align-items:center;gap:.6rem;box-shadow:0 8px 24px rgba(0,0,0,.4);white-space:nowrap}
+    .chi{font-size:1.3rem}
+    .chv{font-family:var(--fh);font-size:1rem;font-weight:700;color:var(--a)}
+    .chl{font-size:.73rem;color:var(--tm);line-height:1.2}
+    .deco{position:absolute;inset:0;pointer-events:none;background-image:linear-gradient(rgba(59,159,212,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(59,159,212,.04) 1px,transparent 1px);background-size:60px 60px;mask-image:radial-gradient(ellipse 70% 70% at 80% 50%,black,transparent)}
+    #abs{background:linear-gradient(180deg,transparent,rgba(26,111,168,.05),transparent)}
+    .ag{display:grid;grid-template-columns:1fr 2fr;gap:4rem;align-items:start}
+    .asb{position:sticky;top:6rem}
+    .ac{background:var(--card);border:1px solid var(--br);border-radius:var(--rl);padding:1.75rem;backdrop-filter:blur(10px)}
+    .act{font-size:.8rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--td);margin-bottom:1rem}
+    .ir{display:flex;gap:.6rem;padding:.6rem 0;border-bottom:1px solid rgba(255,255,255,.05)}
+    .ir:last-child{border-bottom:none;padding-bottom:0}
+    .irl{font-size:.78rem;color:var(--td);min-width:80px;flex-shrink:0}
+    .irv{font-size:.85rem;color:var(--tl);font-weight:500}
+    .kl{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.5rem}
+    .ki{font-size:.75rem;padding:.2rem .6rem;background:rgba(26,111,168,.2);border:1px solid rgba(59,159,212,.3);border-radius:50px;color:var(--pl)}
+    .ab{color:var(--tm);font-size:1rem;line-height:1.9}
+    .ab p{margin-bottom:1.25rem}
+    .ab strong{color:var(--tl)}
+    .ph{background:rgba(26,111,168,.12);border-left:3px solid var(--pl);border-radius:0 var(--rm) var(--rm) 0;padding:1rem 1.25rem;margin:1.5rem 0}
+    .ph p{margin:0;color:var(--tl)}
+    .mi{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center;margin-bottom:4rem}
+    .ms{display:flex;flex-direction:column;gap:1.25rem}
+    .mst{display:flex;gap:1.25rem;background:var(--card);border:1px solid var(--br);border-radius:var(--rm);padding:1.25rem 1.5rem;transition:var(--tr)}
+    .mst:hover{background:var(--cardh);border-color:var(--pl);transform:translateX(6px)}
+    .msn{width:40px;height:40px;border-radius:10px;flex-shrink:0;background:linear-gradient(135deg,var(--p),var(--a));display:flex;align-items:center;justify-content:center;font-family:var(--fh);font-size:.95rem;font-weight:700;color:#fff}
+    .msti{font-family:var(--fh);font-size:.95rem;font-weight:600;margin-bottom:.25rem}
+    .msd{font-size:.87rem;color:var(--tm)}
+    .mv{background:var(--card);border:1px solid var(--br);border-radius:var(--rl);padding:1.5rem;text-align:center}
+    .mv img{border-radius:var(--rm);margin:0 auto;max-height:320px;width:100%;object-fit:contain}
+    .mvc{font-size:.8rem;color:var(--td);margin-top:.75rem}
+    .tg{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:3rem}
+    .tc{background:var(--card);border:1px solid var(--br);border-radius:var(--rm);padding:1.5rem;transition:var(--tr)}
+    .tc:hover{background:var(--cardh);border-color:var(--a);box-shadow:var(--glow);transform:translateY(-4px)}
+    .ti{font-size:2rem;margin-bottom:.75rem}
+    .tn{font-family:var(--fh);font-size:.95rem;font-weight:700;margin-bottom:.4rem}
+    .td2{font-size:.83rem;color:var(--tm)}
+    #res{background:linear-gradient(180deg,transparent,rgba(0,201,167,.04),transparent)}
+    .rsg{display:grid;grid-template-columns:repeat(4,1fr);gap:1.25rem;margin-bottom:3rem}
+    .sc{background:var(--card);border:1px solid var(--br);border-radius:var(--rm);padding:1.75rem 1.25rem;text-align:center;transition:var(--tr);position:relative;overflow:hidden}
+    .sc::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,var(--p),var(--a));opacity:0;transition:opacity var(--tr)}
+    .sc:hover::before{opacity:.07}
+    .sc:hover{border-color:var(--a);transform:translateY(-6px);box-shadow:0 20px 50px rgba(0,0,0,.3),var(--glow)}
+    .sc>*{position:relative;z-index:1}
+    .si{font-size:1.8rem;margin-bottom:.5rem}
+    .sn{font-family:var(--fh);font-size:2.4rem;font-weight:800;background:linear-gradient(135deg,var(--a),var(--pl));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;line-height:1}
+    .su{font-size:.9rem;color:var(--tm)}
+    .sl{font-size:.82rem;color:var(--td);margin-top:.25rem}
+    .rig{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:2rem}
+    .ric{background:var(--card);border:1px solid var(--br);border-radius:var(--rm);overflow:hidden;transition:var(--tr)}
+    .ric:hover{border-color:var(--pl);transform:translateY(-4px);box-shadow:0 16px 40px rgba(0,0,0,.4)}
+    .ric img{width:100%;object-fit:contain;background:#fff}
+    .rii{padding:1rem 1.25rem}
+    .rit{font-family:var(--fh);font-size:.88rem;font-weight:600;margin-bottom:.25rem}
+    .rid{font-size:.8rem;color:var(--tm)}
+    .cs{margin-top:3rem}
+    .ct{font-family:var(--fh);font-size:1.15rem;font-weight:700;margin-bottom:1.5rem}
+    .cr{display:grid;grid-template-columns:180px 1fr 1fr;gap:.75rem;align-items:center;padding:.7rem 0;border-bottom:1px solid rgba(255,255,255,.05)}
+    .cr:last-child{border-bottom:none}
+    .crl{font-size:.85rem;color:var(--tm)}
+    .cv{font-family:var(--fh);font-size:1rem;font-weight:700;text-align:center}
+    .cv.b4{color:#e26355}
+    .cv.af{color:var(--a)}
+    .mgr{display:grid;grid-template-columns:repeat(5,1fr);gap:1rem;margin-top:3rem;position:relative}
+    .mgr::before{content:'';position:absolute;top:2.2rem;left:10%;right:10%;height:2px;background:linear-gradient(90deg,transparent,var(--p),var(--a),var(--p),transparent);z-index:0}
+    .mc{background:var(--card);border:1px solid var(--br);border-radius:var(--rm);padding:1.75rem 1rem 1.25rem;text-align:center;transition:var(--tr);position:relative;z-index:1}
+    .mc:hover{background:var(--cardh);border-color:var(--a);transform:translateY(-8px);box-shadow:0 20px 50px rgba(0,0,0,.3),var(--glow)}
+    .mn{width:44px;height:44px;border-radius:50%;background:linear-gradient(135deg,var(--pd),var(--p));border:2px solid var(--a);display:flex;align-items:center;justify-content:center;font-family:var(--fh);font-size:1.1rem;font-weight:800;color:#fff;margin:0 auto 1rem}
+    .mi2{font-size:1.6rem;margin-bottom:.6rem}
+    .mt2{font-family:var(--fh);font-size:.88rem;font-weight:700;margin-bottom:.4rem}
+    .md2{font-size:.78rem;color:var(--tm);line-height:1.5}
+    #prf{background:linear-gradient(180deg,transparent,rgba(26,111,168,.06),transparent)}
+    .pg{display:grid;grid-template-columns:360px 1fr;gap:3rem;align-items:start}
+    .pm{background:var(--card);border:1px solid var(--br);border-radius:var(--rl);padding:2.5rem 2rem;text-align:center;backdrop-filter:blur(10px);box-shadow:0 20px 60px rgba(0,0,0,.3)}
+    .pap{width:130px;height:130px;border-radius:50%;background:linear-gradient(135deg,var(--pd),var(--p));border:3px solid var(--a);display:flex;align-items:center;justify-content:center;font-size:3.5rem;color:rgba(255,255,255,.7);margin:0 auto 1.5rem}
+    .pn{font-family:var(--fh);font-size:1.3rem;font-weight:700;margin-bottom:.3rem}
+    .pt{font-size:.9rem;color:var(--a);font-weight:500;margin-bottom:.5rem}
+    .po{font-size:.83rem;color:var(--tm);margin-bottom:1.25rem;line-height:1.5}
+    .pd2{width:50px;height:3px;background:linear-gradient(90deg,var(--p),var(--a));border-radius:2px;margin:0 auto 1.25rem}
+    .pc{display:flex;flex-direction:column;gap:.6rem}
+    .pci{display:flex;align-items:center;gap:.6rem;font-size:.82rem;color:var(--tm)}
+    .pcic{width:28px;height:28px;border-radius:8px;background:rgba(59,159,212,.15);display:flex;align-items:center;justify-content:center;font-size:.85rem;flex-shrink:0}
+    .pat{font-family:var(--fh);font-size:1.4rem;font-weight:700;margin-bottom:1rem}
+    .pab{color:var(--tm);font-size:.97rem;line-height:1.85;margin-bottom:2rem}
+    .cog{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+    .coc{background:var(--card);border:1px solid var(--br);border-radius:var(--rm);padding:1.25rem;display:flex;align-items:center;gap:1rem;transition:var(--tr)}
+    .coc:hover{background:var(--cardh);border-color:var(--pl)}
+    .coa{width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,var(--pd),var(--p));display:flex;align-items:center;justify-content:center;font-family:var(--fh);font-size:1rem;font-weight:700;color:#fff;flex-shrink:0}
+    .con{font-family:var(--fh);font-size:.9rem;font-weight:600}
+    .cor{font-size:.77rem;color:var(--tm)}
+    footer{background:rgba(5,10,18,.9);border-top:1px solid var(--br);padding:3rem 0 1.5rem}
+    .fg{display:grid;grid-template-columns:2fr 1fr 1fr;gap:3rem;margin-bottom:2.5rem}
+    .fb{font-family:var(--fh);font-size:1rem;font-weight:700;margin-bottom:.5rem}
+    .fbd{font-size:.83rem;color:var(--td);line-height:1.7}
+    .fct{font-family:var(--fh);font-size:.82rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--td);margin-bottom:1rem}
+    .fl2{display:flex;flex-direction:column;gap:.5rem}
+    .fl2 a{font-size:.85rem;color:var(--tm);transition:color var(--tr)}
+    .fl2 a:hover{color:var(--a)}
+    .fbot{border-top:1px solid rgba(255,255,255,.05);padding-top:1.25rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem}
+    .fc{font-size:.8rem;color:var(--td)}
+    .ff{font-size:.78rem;color:var(--td);background:rgba(245,200,66,.08);border:1px solid rgba(245,200,66,.2);padding:.3rem .85rem;border-radius:50px}
+    .rv{opacity:0;transform:translateY(30px);transition:opacity .7s ease,transform .7s ease}
+    .rv.on{opacity:1;transform:translateY(0)}
+    .d1{transition-delay:.1s}.d2{transition-delay:.2s}.d3{transition-delay:.3s}.d4{transition-delay:.4s}
+    @media(max-width:1024px){.rsg{grid-template-columns:repeat(2,1fr)}.mgr{grid-template-columns:1fr 1fr}.mgr::before{display:none}}
+    @media(max-width:900px){.hg{grid-template-columns:1fr;gap:3rem}.chips{position:static;flex-direction:row;flex-wrap:wrap;margin-top:1rem}.ag{grid-template-columns:1fr}.asb{position:static}.mi{grid-template-columns:1fr}.rig{grid-template-columns:1fr}.pg{grid-template-columns:1fr}.pm{max-width:380px;margin:0 auto}.tg{grid-template-columns:1fr 1fr}.fg{grid-template-columns:1fr;gap:2rem}.cr{grid-template-columns:1fr 1fr 1fr}}
+    @media(max-width:640px){.sec{padding:3.5rem 0}.rsg{grid-template-columns:1fr 1fr}.mgr{grid-template-columns:1fr}.tg{grid-template-columns:1fr}.cog{grid-template-columns:1fr}.links{display:none}.tog{display:flex}.links.op{display:flex;flex-direction:column;position:fixed;inset:0;top:60px;background:rgba(5,14,26,.97);backdrop-filter:blur(20px);justify-content:center;align-items:center;gap:2.5rem;z-index:99}.links.op a{font-size:1.2rem}.ha{flex-direction:column}.bp,.bo{justify-content:center}.fbot{flex-direction:column;text-align:center}.cr{grid-template-columns:120px 1fr 1fr}}
+  </style>
+</head>
+<body>
+<div class="mesh"></div>
+<nav class="nav" id="nav">
+  <div class="c"><div class="ni">
+    <div class="nl"><div class="nli">Rx</div><div><div class="nlt">งานวิจัยสาธารณสุข</div><div class="nls">สำนักงานสาธารณสุขจังหวัดศรีสะเกษ</div></div></div>
+    <div class="links" id="lnk">
+      <a href="#abs">ภาพรวม</a><a href="#mth">ระเบียบวิธี</a><a href="#res">ผลลัพธ์</a><a href="#mod">รูปแบบ 5 ขั้นตอน</a><a href="#prf">นักวิจัย</a>
+      <a href="#abs" class="cta">อ่านงานวิจัย</a>
+    </div>
+    <div class="tog" onclick="document.getElementById('lnk').classList.toggle('op')"><span></span><span></span><span></span></div>
+  </div></div>
+</nav>
+
+<section id="hero">
+  <div class="deco"></div>
+  <div class="c"><div class="hg">
+    <div>
+      <div class="he rv"><span class="hed"></span><span class="het">งานวิจัยด้านเภสัชกรรมชุมชน · ปีงบประมาณ 2568</span></div>
+      <h1 class="ht rv d1">ผลของ<span class="hi">ศูนย์เฝ้าระวัง</span>และแจ้งเตือนยาระดับตำบล<br>ในการเฝ้าระวัง<span class="hi">ยาอันตราย</span>ในร้านชำ</h1>
+      <p class="hd rv d2">การศึกษาประสิทธิผลของกลไก<strong>ศูนย์เฝ้าระวังและแจ้งเตือนยาระดับตำบล</strong> ในตำบลยางพลวง อำเภอเมือง จังหวัดศรีสะเกษ เพื่อลดยาอันตรายในร้านชำและยกระดับความรู้ผู้ประกอบการ</p>
+      <div class="htg rv d2"><span class="bdg">G-RDU</span><span class="bdg">G-SHP</span><span class="bdg">Quasi-Experimental</span><span class="bdg">ตำบลยางพลวง</span><span class="bdg">ศรีสะเกษ</span></div>
+      <div class="ha rv d3"><a href="#abs" class="bp">📄 อ่านงานวิจัยฉบับเต็ม</a><a href="#res" class="bo">📊 ดูผลลัพธ์</a></div>
+    </div>
+    <div class="hv rv d2">
+      <div class="hic">
+        <div class="hit">
+          <span class="dot" style="background:#ff5f57"></span><span class="dot" style="background:#febc2e"></span><span class="dot" style="background:#28c840"></span>
+          <span style="font-size:.78rem;color:var(--td);margin-left:.5rem">ผลการวิเคราะห์ทางสถิติ · SPSS</span>
+        </div>
+        <div class="hii">
+          <img src="1762507182024.jpg" alt="Descriptive Statistics คะแนนก่อนและหลัง"/>
+          <p class="hic2">Descriptive Statistics — คะแนนความรู้ผู้ประกอบการก่อนและหลังการดำเนินงาน</p>
+        </div>
+      </div>
+      <div class="chips">
+        <div class="chip"><span class="chi">🏪</span><div><div class="chv">60 ร้าน</div><div class="chl">กลุ่มตัวอย่าง</div></div></div>
+        <div class="chip"><span class="chi">📈</span><div><div class="chv">p &lt; 0.001</div><div class="chl">ระดับนัยสำคัญ</div></div></div>
+      </div>
+    </div>
+  </div></div>
+</section>
+
+<section id="abs" class="sec">
+  <div class="c"><div class="ag">
+    <div class="asb rv">
+      <div class="ac">
+        <div class="act">📋 ข้อมูลงานวิจัย</div>
+        <div class="ir"><span class="irl">ประเภท</span><span class="irv">Quasi-Experimental Research</span></div>
+        <div class="ir"><span class="irl">พื้นที่</span><span class="irv">ตำบลยางพลวง อ.เมือง จ.ศรีสะเกษ</span></div>
+        <div class="ir"><span class="irl">กลุ่มตัวอย่าง</span><span class="irv">ร้านชำ 60 ร้าน + ผู้ประกอบการ 60 คน</span></div>
+        <div class="ir"><span class="irl">ช่วงเวลา</span><span class="irv">1 ต.ค. 2567 – 30 ก.ย. 2568</span></div>
+        <div class="ir"><span class="irl">เครื่องมือ</span><span class="irv">G-RDU &amp; G-SHP MOPH</span></div>
+        <div class="ir"><span class="irl">สถิติ</span><span class="irv">Frequency, %, Paired t-test (P&lt;0.05)</span></div>
+        <div style="margin-top:1rem"><div class="act">🏷️ คำสำคัญ</div>
+          <div class="kl"><span class="ki">ศูนย์เฝ้าระวังยาระดับตำบล</span><span class="ki">ยาอันตราย</span><span class="ki">ร้านชำ</span><span class="ki">G-RDU</span><span class="ki">G-SHP</span></div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <span class="lbl rv">📖 ภาพรวมงานวิจัย</span>
+      <h2 class="ttl rv">บทคัดย่อ</h2>
+      <div class="div rv"></div>
+      <div class="ab">
+        <p class="rv"><strong>ที่มาของปัญหา:</strong> การจำหน่ายยาอันตรายในร้านชำเป็นปัญหาสาธารณสุขที่ส่งผลกระทบต่อสุขภาพของประชาชน เกิดจากการขาดการควบคุมตาม พ.ร.บ. ยา พ.ศ. 2510 จากการตรวจสอบพบว่าในปีงบประมาณ 2567 มีร้านชำที่ไม่ผ่านมาตรฐานถึง <strong style="color:var(--a)">24.14%</strong> (1,825 ร้าน)</p>
+        <div class="ph rv"><p>💡 ในปีงบประมาณ 2568 พบว่ายังคงมีร้านชำที่ไม่ผ่านมาตรฐาน <strong>G-RDU 26.24%</strong> และ <strong>G-SHP 28.48%</strong> จึงจำเป็นต้องพัฒนากลไกการเฝ้าระวังระดับชุมชน</p></div>
+        <p class="rv"><strong>วัตถุประสงค์:</strong> เพื่อเปรียบเทียบผลลัพธ์ของการเฝ้าระวังยาอันตรายในร้านชำ และความรู้ของผู้ประกอบการร้านชำ <strong>ก่อน</strong>และ<strong>หลัง</strong>การดำเนินงานศูนย์เฝ้าระวังและแจ้งเตือนยาระดับตำบล</p>
+        <p class="rv"><strong>ระเบียบวิธีวิจัย:</strong> ใช้รูปแบบการวิจัยกึ่งทดลอง ศึกษาร้านชำทุกร้านในพื้นที่ตำบลยางพลวง จำนวน 60 ร้าน และผู้ประกอบการ 60 คน เก็บข้อมูลด้วย G-RDU &amp; G-SHP MOPH วิเคราะห์ด้วย Paired t-test ที่ P &lt; 0.05</p>
+        <p class="rv"><strong>ลักษณะของกลุ่มตัวอย่าง:</strong> ผู้ประกอบการส่วนใหญ่เป็นเพศหญิง (71.67%) อายุ 41–50 ปี (58.33%) การศึกษาระดับมัธยม/อนุปริญญา (50%) ดำเนินกิจการมา 6–10 ปี (45%)</p>
+      </div>
+    </div>
+  </div></div>
+</section>
+
+<section id="mth" class="sec">
+  <div class="c">
+    <div style="text-align:center;margin-bottom:3rem">
+      <span class="lbl rv">⚙️ ระเบียบวิธีวิจัย</span>
+      <h2 class="ttl rv">กระบวนการดำเนินงาน</h2>
+      <div class="div rv" style="margin:1rem auto 1.5rem"></div>
+      <p class="sub rv" style="margin:0 auto">การดำเนินงานผ่านกลไกศูนย์เฝ้าระวังและแจ้งเตือนยาระดับตำบล โดยบูรณาการภาคีเครือข่ายในชุมชน</p>
+    </div>
+    <div class="mi">
+      <div class="ms">
+        <div class="mst rv"><div class="msn">1</div><div><div class="msti">ออกแบบการวิจัยกึ่งทดลอง</div><div class="msd">Quasi-Experimental Design เก็บข้อมูลก่อน-หลังการดำเนินงานศูนย์เฝ้าระวัง</div></div></div>
+        <div class="mst rv d1"><div class="msn">2</div><div><div class="msti">สำรวจร้านชำครอบคลุม 100%</div><div class="msd">ร้านชำ 60 ร้าน และผู้ประกอบการ 60 คน ในพื้นที่ตำบลยางพลวง ทุกหลัง</div></div></div>
+        <div class="mst rv d2"><div class="msn">3</div><div><div class="msti">ประเมินมาตรฐานด้วย G-RDU &amp; G-SHP</div><div class="msd">ใช้เครื่องมือประเมินมาตรฐาน MOPH แสดงผลผ่าน Dashboard สี GG/เขียว/เหลือง/แดง</div></div></div>
+        <div class="mst rv d3"><div class="msn">4</div><div><div class="msti">วิเคราะห์ข้อมูลทางสถิติ</div><div class="msd">ความถี่ ร้อยละ และ Paired t-test ที่ P &lt; 0.05 ด้วยโปรแกรม SPSS</div></div></div>
+      </div>
+      <div class="mv rv">
+        <img src="1762507340811.jpg" alt="Paired Samples Test"/>
+        <div class="mvc">Paired Samples Test: t = -4.942, p &lt; 0.001<br>เปรียบเทียบคะแนนความรู้ผู้ประกอบการก่อนและหลังการดำเนินงาน</div>
+      </div>
+    </div>
+    <div class="tg">
+      <div class="tc rv"><div class="ti">🟢</div><div class="tn">G-RDU (Grocery Rational Drug Use)</div><div class="td2">เครื่องมือประเมินมาตรฐานการจัดการยาอย่างสมเหตุผลในร้านชำ จาก MOPH</div></div>
+      <div class="tc rv d1"><div class="ti">🛡️</div><div class="tn">G-SHP (Grocery Safe Health Product)</div><div class="td2">เครื่องมือประเมินมาตรฐานผลิตภัณฑ์สุขภาพที่ปลอดภัยในร้านชำ จาก MOPH</div></div>
+      <div class="tc rv d2"><div class="ti">📊</div><div class="tn">SPSS Statistical Analysis</div><div class="td2">วิเคราะห์ข้อมูลด้วย Frequency, Percentage และ Paired t-test ที่ P &lt; 0.05</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="res" class="sec">
+  <div class="c">
+    <div style="text-align:center;margin-bottom:3rem">
+      <span class="lbl rv">📊 ผลการวิจัย</span>
+      <h2 class="ttl rv">ผลลัพธ์สำคัญ</h2>
+      <div class="div rv" style="margin:1rem auto 1.5rem"></div>
+      <p class="sub rv" style="margin:0 auto">ผลการดำเนินงานแสดงให้เห็นถึงการพัฒนาที่มีนัยสำคัญทางสถิติในทุกตัวชี้วัด</p>
+    </div>
+    <div class="rsg">
+      <div class="sc rv"><div class="si">📈</div><div class="sn">99.67</div><div class="su">คะแนน (หลัง)</div><div class="sl">จาก 93.05 คะแนน (ก่อน)</div></div>
+      <div class="sc rv d1"><div class="si">🏪</div><div class="sn">100%</div><div class="su">ร้านชำ</div><div class="sl">เข้าร่วมการศึกษา 60 ร้าน</div></div>
+      <div class="sc rv d2"><div class="si">⬇️</div><div class="sn">p&lt;0.001</div><div class="su">ระดับนัยสำคัญ</div><div class="sl">ร้านแดงลดลงอย่างมีนัยสำคัญ</div></div>
+      <div class="sc rv d3"><div class="si">🎓</div><div class="sn">96.7%</div><div class="su">ระดับสูงสุด</div><div class="sl">ผู้ประกอบการมีความรู้ระดับมากที่สุด (หลัง)</div></div>
+    </div>
+    <div class="cs rv">
+      <div class="ct">📋 เปรียบเทียบผลก่อน–หลัง การดำเนินงานศูนย์เฝ้าระวังยาระดับตำบล</div>
+      <div style="overflow-x:auto"><div style="min-width:520px">
+        <div class="cr" style="font-weight:700;font-size:.85rem;border-bottom:2px solid var(--br)"><div class="crl">ตัวชี้วัด</div><div class="cv" style="color:var(--tm)">ก่อนดำเนินงาน</div><div class="cv" style="color:var(--tm)">หลังดำเนินงาน</div></div>
+        <div class="cr rv"><div class="crl">ร้านสีเขียว (GG)</div><div class="cv b4">30 ร้าน (50%)</div><div class="cv af">เพิ่มขึ้น ↑</div></div>
+        <div class="cr rv d1"><div class="crl">ร้านสีแดง</div><div class="cv b4">29 ร้าน (48.33%)</div><div class="cv af">ลดลง ↓***</div></div>
+        <div class="cr rv d2"><div class="crl">ผ่าน G-RDU</div><div class="cv b4">35 ร้าน (58.33%)</div><div class="cv af">เพิ่มขึ้น ↑***</div></div>
+        <div class="cr rv d3"><div class="crl">ผ่าน G-SHP</div><div class="cv b4">35 ร้าน (58.33%)</div><div class="cv af">เพิ่มขึ้น ↑***</div></div>
+        <div class="cr rv d4"><div class="crl">คะแนนความรู้ (mean)</div><div class="cv b4">93.05 ± 8.55</div><div class="cv af">99.67 ± 4.86 ***</div></div>
+        <div class="cr rv"><div class="crl">ระดับความรู้สูงสุด</div><div class="cv b4">56.7% (มากที่สุด)</div><div class="cv af">96.7% (มากที่สุด)</div></div>
+      </div></div>
+      <p style="font-size:.78rem;color:var(--td);margin-top:.75rem">*** p &lt; 0.001 — มีนัยสำคัญทางสถิติ</p>
+    </div>
+    <div class="rig">
+      <div class="ric rv"><img src="1762507182024.jpg" alt="Descriptive Statistics"/><div class="rii"><div class="rit">📋 Descriptive Statistics</div><div class="rid">คะแนนก่อน: Mean=93.05, SD=8.55 | คะแนนหลัง: Mean=99.67, SD=4.86</div></div></div>
+      <div class="ric rv d1"><img src="1762507340811.jpg" alt="Paired Samples Test"/><div class="rii"><div class="rit">📊 Paired Samples Test</div><div class="rid">t = -4.942, df = 59, p &lt; 0.001</div></div></div>
+      <div class="ric rv d2"><img src="1762507525222.jpg" alt="ระดับความรู้ก่อน-หลัง"/><div class="rii"><div class="rit">📈 ระดับความรู้ก่อน–หลัง</div><div class="rid">ก่อน: 56.7% มากที่สุด | หลัง: 96.7% มากที่สุด</div></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="mod" class="sec">
+  <div class="c">
+    <div style="text-align:center;margin-bottom:1rem">
+      <span class="lbl rv">🔄 นวัตกรรมชุมชน</span>
+      <h2 class="ttl rv">รูปแบบการจัดการปัญหายาอันตรายระดับชุมชน</h2>
+      <div class="div rv" style="margin:1rem auto 1.5rem"></div>
+      <p class="sub rv" style="margin:0 auto">5 ขั้นตอนที่ได้จากการวิจัย สามารถขยายผลไปยังชุมชนอื่นที่มีปัญหาลักษณะเดียวกัน</p>
+    </div>
+    <div class="mgr">
+      <div class="mc rv"><div class="mn">1</div><div class="mi2">🔍</div><div class="mt2">สำรวจร้านชำอย่างครอบคลุม</div><div class="md2">Comprehensive Survey เก็บข้อมูลร้านชำทุกร้านในพื้นที่</div></div>
+      <div class="mc rv d1"><div class="mn">2</div><div class="mi2">📊</div><div class="mt2">วิเคราะห์และจัดลำดับความเสี่ยง</div><div class="md2">Data Analysis &amp; Risk Prioritization</div></div>
+      <div class="mc rv d2"><div class="mn">3</div><div class="mi2">📋</div><div class="mt2">วางแผนแก้ไขปัญหา</div><div class="md2">Problem Management Planning</div></div>
+      <div class="mc rv d3"><div class="mn">4</div><div class="mi2">🤝</div><div class="mt2">ลงพื้นที่แก้ไขร่วมกัน</div><div class="md2">Collaborative Field Intervention</div></div>
+      <div class="mc rv d4"><div class="mn">5</div><div class="mi2">✅</div><div class="mt2">สรุปและประเมินผลลัพธ์</div><div class="md2">Summary &amp; Outcome Evaluation</div></div>
+    </div>
+    <div style="margin-top:3rem;background:var(--card);border:1px solid var(--br);border-radius:var(--rl);padding:2rem" class="rv">
+      <div style="display:flex;align-items:flex-start;gap:1.25rem">
+        <span style="font-size:2rem;flex-shrink:0">🌐</span>
+        <div>
+          <div style="font-family:var(--fh);font-size:1.05rem;font-weight:700;margin-bottom:.4rem">ศักยภาพในการขยายผล (Scalability)</div>
+          <p style="font-size:.92rem;color:var(--tm);line-height:1.8;margin:0">รูปแบบการจัดการปัญหา 5 ขั้นตอนนี้ สามารถนำไปประยุกต์ใช้ในชุมชนอื่นที่มีปัญหาการจำหน่ายยาอันตรายในร้านชำ โดยผ่านกลไก <strong>ศูนย์เฝ้าระวังและแจ้งเตือนยาระดับตำบล</strong> ซึ่งบูรณาการภาครัฐ (รพ.สต., อปท.) และภาคประชาชน (อสม.)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="prf" class="sec">
+  <div class="c">
+    <div style="text-align:center;margin-bottom:3.5rem">
+      <span class="lbl rv">👩‍🔬 ทีมนักวิจัย</span>
+      <h2 class="ttl rv">นักวิจัยและคณะทำงาน</h2>
+      <div class="div rv" style="margin:1rem auto 1.5rem"></div>
+    </div>
+    <div class="pg">
+      <div class="pm rv">
+        <div class="pap">👩‍⚕️</div>
+        <div class="pn">สิรีธร เดชศิลาจารึกูณ</div>
+        <div class="pt">นักวิจัยหลัก (Principal Investigator)</div>
+        <div class="po">เภสัชกรชำนาญการ<br>สำนักงานสาธารณสุขจังหวัดศรีสะเกษ<br>กลุ่มงานคุ้มครองผู้บริโภค</div>
+        <div class="pd2"></div>
+        <div class="pc">
+          <div class="pci"><div class="pcic">📍</div><span>จ.ศรีสะเกษ (Si Sa Ket Province)</span></div>
+          <div class="pci"><div class="pcic">🏥</div><span>สำนักงานสาธารณสุขจังหวัดศรีสะเกษ</span></div>
+          <div class="pci"><div class="pcic">🔬</div><span>เภสัชกรรมชุมชน | คุ้มครองผู้บริโภค</span></div>
+        </div>
+      </div>
+      <div class="rv d1">
+        <h3 class="pat">เกี่ยวกับนักวิจัย</h3>
+        <p class="pab">สิรีธร เดชศิลาจารึกูณ เป็นเภสัชกรชำนาญการที่ปฏิบัติงานด้านคุ้มครองผู้บริโภค สังกัดสำนักงานสาธารณสุขจังหวัดศรีสะเกษ มีความเชี่ยวชาญด้านการเฝ้าระวังและควบคุมผลิตภัณฑ์สุขภาพในชุมชน การพัฒนาระบบเฝ้าระวังยาระดับตำบล และการส่งเสริมการใช้ยาอย่างสมเหตุผล (RDU) ในระดับชุมชน</p>
+        <p class="pab">งานวิจัยชิ้นนี้เป็นส่วนหนึ่งของการขอรับการประเมินตำแหน่งเภสัชกรชำนาญการ โดยมุ่งพัฒนากลไกการดำเนินงานที่ตอบสนองต่อปัญหาสาธารณสุขในพื้นที่อย่างมีประสิทธิผล</p>
+        <h4 style="font-family:var(--fh);font-size:1rem;font-weight:600;margin-bottom:1.25rem;color:var(--tm)">🤝 ผู้ร่วมวิจัย (Co-researchers)</h4>
+        <div class="cog">
+          <div class="coc"><div class="coa">จ</div><div><div class="con">จินดาพร อุปถัมภ์</div><div class="cor">ผู้ร่วมวิจัย · สสจ.ศรีสะเกษ</div></div></div>
+          <div class="coc"><div class="coa">ม</div><div><div class="con">มัลลิกา สุพรรณ</div><div class="cor">ผู้ร่วมวิจัย · สสจ.ศรีสะเกษ</div></div></div>
+        </div>
+        <div style="margin-top:2rem;padding:1.25rem;background:rgba(245,200,66,.06);border:1px solid rgba(245,200,66,.2);border-radius:var(--rm)">
+          <div style="font-family:var(--fh);font-size:.88rem;font-weight:600;color:var(--g);margin-bottom:.4rem">🏆 แหล่งทุนสนับสนุน</div>
+          <p style="font-size:.85rem;color:var(--tm);margin:0;line-height:1.7">งานวิจัยนี้ได้รับการสนับสนุนจากสำนักงานสาธารณสุขจังหวัดศรีสะเกษ ภายใต้การดำเนินงานตามแผนงาน Service Plan RDU ปีงบประมาณ 2568</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="c">
+    <div class="fg">
+      <div><div class="fb">ศูนย์เฝ้าระวังและแจ้งเตือนยาระดับตำบล</div><p class="fbd">งานวิจัยเพื่อการพัฒนาระบบสาธารณสุขชุมชน โดยสำนักงานสาธารณสุขจังหวัดศรีสะเกษ กลุ่มงานคุ้มครองผู้บริโภคและเภสัชสาธารณสุข ปีงบประมาณ 2568</p></div>
+      <div><div class="fct">เนื้อหา</div><div class="fl2"><a href="#abs">บทคัดย่อ</a><a href="#mth">ระเบียบวิธีวิจัย</a><a href="#res">ผลการวิจัย</a><a href="#mod">รูปแบบ 5 ขั้นตอน</a><a href="#prf">นักวิจัย</a></div></div>
+      <div><div class="fct">หน่วยงาน</div><div class="fl2"><a href="#">สสจ.ศรีสะเกษ</a><a href="#">กลุ่มงานคุ้มครองผู้บริโภค</a><a href="#">กระทรวงสาธารณสุข</a><a href="#">นโยบาย RDU Community</a></div></div>
+    </div>
+    <div class="fbot">
+      <p class="fc">© 2568 สิรีธร เดชศิลาจารึกูณ และคณะ · สำนักงานสาธารณสุขจังหวัดศรีสะเกษ · สงวนลิขสิทธิ์ตามกฎหมาย</p>
+      <span class="ff">🏅 ทุนสนับสนุน: สสจ.ศรีสะเกษ · Service Plan RDU 2568</span>
+    </div>
+  </div>
+</footer>
+<script>
+  const nv=document.getElementById('nav');
+  window.addEventListener('scroll',()=>nv.classList.toggle('on',window.scrollY>60));
+  document.querySelectorAll('#lnk a').forEach(a=>a.addEventListener('click',()=>document.getElementById('lnk').classList.remove('op')));
+  const ob=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('on');ob.unobserve(e.target)}}),{threshold:.12});
+  document.querySelectorAll('.rv').forEach(el=>ob.observe(el));
+  const secs=document.querySelectorAll('section[id]');
+  const nas=document.querySelectorAll('.links a:not(.cta)');
+  window.addEventListener('scroll',()=>{let cur='';secs.forEach(s=>{if(window.scrollY>=s.offsetTop-120)cur=s.id});nas.forEach(a=>{a.style.color=a.getAttribute('href')==='#'+cur?'var(--a)':''})});
+</script>
+</body>
+</html>
